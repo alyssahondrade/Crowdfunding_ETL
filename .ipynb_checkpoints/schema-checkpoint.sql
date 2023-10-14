@@ -1,12 +1,12 @@
 CREATE TABLE categories (
 	PRIMARY KEY (category_id),
-	category_id VARCHAR(4) NOT NULL, -- VARCHAR(4) since cat1...cat9, could use VARCHAR(5) if want: cat10, etc.
+	category_id VARCHAR(5) NOT NULL, -- VARCHAR(4) since cat1...cat9, could use VARCHAR(5) if want: cat10, etc.
 	category VARCHAR(20) NOT NULL -- VARCHAR(20) since longest is "film & video" (12)
 );
 
 CREATE TABLE subcategories (
 	PRIMARY KEY (subcategory_id),
-	subcategory_id VARCHAR(8) NOT NULL, -- VARCHAR(8) since subcat1...subcat9, could use VARCHAR(9) if want: subcat100, etc.
+	subcategory_id VARCHAR(10) NOT NULL, -- VARCHAR(8) since subcat1...subcat9, could use VARCHAR(9) if want: subcat100, etc.
 	subcategory VARCHAR(20) NOT NULL -- VARCHAR(20) since longest is "photography books" (17)
 );
 
@@ -32,10 +32,10 @@ CREATE TABLE campaign (
     pledged FLOAT(10), -- as with goal
     outcome VARCHAR(10), -- longest is 10, "successful", not expecting to have different option?
     backers_count INT,
-    country VARCHAR(2), -- all country abbreviations to 2 chars
+    country VARCHAR(2), -- all country abbreviations to 2 chars, consistency and integrity of data
     currency VARCHAR(3), -- currency abbreviations to 3 chars
     launched_date DATE,
     end_date DATE,
-    category_id VARCHAR(4), -- as above
-    subcategory_id VARCHAR(8) -- as above
+    category_id VARCHAR(5), -- as above
+    subcategory_id VARCHAR(10) -- as above
 );
