@@ -38,6 +38,12 @@ The root directory contains:
 
 
 ## Approach
+
+### Schema
+- `category_id VARCHAR(5)`
+- 
+
+
 -- describe approach here --
 
 -- insert image of the ERD here, after describing ERD creation process --
