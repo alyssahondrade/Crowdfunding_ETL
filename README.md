@@ -46,19 +46,19 @@ Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](h
 ### Schema
 Variable | Minimum Requirement | Chosen Limit
 :---: | --- | ---
-`category_id` | `VARCHAR(4)` since "cat1...cat9" | `VARCHAR(5)` to allow for "cat10...etc."
+`category_id`    | `VARCHAR(4)` since "cat1...cat9" | `VARCHAR(5)` to allow for "cat10...etc."
 `subcategory_id` | `VARCHAR(8)` since "subcat1...subcat9" | `VARCHAR(10)` to allow for "cat100...etc."
-`category` | `VARCHAR(12)` to account for the longest | Rounded up to `VARCHAR(20)`
-`subcategory` | `VARCHAR(17)` to account for the longest | Rounded up to `VARCHAR(20)`
-`first_name` | `VARCHAR(12)` since "Michelangelo" | `VARCHAR(30)` to allow for longer names
-`last_name` | `VARCHAR(13)` since "Montanariello" | `VARCHAR(30)` to allow for longer names
-`email` | The longest email required `VARCHAR(42)` | `VARCHAR(60)` to allow for longer emails
-`company_name` | The longest required `VARCHAR(33)` | Rounded up to `VARCHAR(50)`
-`description` | The longest required `VARCHAR(53)` | Rounded up to `VARCHAR(75)`
-`goal` & `pledged` | Minimum digits required `FLOAT(7)` | Rounded up to `FLOAT(10)`
-`outcome` | The longest option required `VARCHAR(10)` | Retained, since not expecting new options
-`country` | All abbreviations required `VARCHAR(2)` | Retained, to ensure data consistency & integrity
-`currency` | All abbreviations required `VARCHAR(3)` | Retained, for the same reasons as `country`
+`category`       | `VARCHAR(12)` for "film & video" | Rounded up to `VARCHAR(20)`
+`subcategory`    | `VARCHAR(17)` for "photography books" | Rounded up to `VARCHAR(20)`
+`first_name`     | `VARCHAR(12)` since "Michelangelo" | `VARCHAR(30)` to allow for longer names
+`last_name`      | `VARCHAR(13)` since "Montanariello" | `VARCHAR(30)` to allow for longer names
+`email`          | `VARCHAR(42)` for longest email | `VARCHAR(60)` to allow for longer emails
+`company_name`   | `VARCHAR(33)` for longest company name | Rounded up to `VARCHAR(50)`
+`description`    | `VARCHAR(53)` for longest description  | Rounded up to `VARCHAR(75)`
+`goal`,`pledged` | Minimum digits required `FLOAT(7)` | Rounded up to `FLOAT(10)`
+`outcome`        | `VARCHAR(10)` for "successful" | Retained, since not expecting new options
+`country`        | All abbreviations required `VARCHAR(2)` | Retained, to ensure data consistency & integrity
+`currency`       | All abbreviations required `VARCHAR(3)` | Retained, for the same reasons as `country`
 
 ### ERD
 -- insert image of the ERD here, after describing ERD creation process --
