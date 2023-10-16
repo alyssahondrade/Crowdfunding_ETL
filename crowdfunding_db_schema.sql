@@ -1,3 +1,5 @@
+-- CREATE DATABASE crowdfunding_db;
+
 CREATE TABLE categories (
 	PRIMARY KEY (category_id),
 	category_id VARCHAR(5) NOT NULL,
