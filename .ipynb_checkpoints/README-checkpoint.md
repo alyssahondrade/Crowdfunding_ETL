@@ -45,7 +45,9 @@ The root directory contains:
 Variable | Minimum Requirement | Chosen Limit
 :---: | --- | ---
 `category_id` | `VARCHAR(4)` since "cat1...cat9" | `VARCHAR(5)` to allow for "cat10...etc."
+`category` | `VARCHAR(12)` since the longest is "film & video" | Rounded up to `VARCHAR(20)`
 `subcategory_id` | `VARCHAR(8)` since "subcat1...subcat9" | `VARCHAR(10)` to allow for "cat100...etc."
+`subcategory` | `VARCHAR(17)` since the longest is "photography books" | Rounded up to `VARCHAR(20)`
 `first_name` | `VARCHAR(12)` since "Michelangelo" | `VARCHAR(30)` to allow for longer names
 `last_name` | `VARCHAR(13)` since "Montanariello" | `VARCHAR(30)` to allow for longer names
 `email` | The longest email required `VARCHAR(42)` | `VARCHAR(60)` to account for longer emails
