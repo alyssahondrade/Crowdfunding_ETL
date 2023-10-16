@@ -39,10 +39,6 @@ The goal of this porject is to collaboratively build an ETL pipeline using Pytho
 ### Dataset
 -- insert source here, refer to Project 2 BCS page --
 
-
-## Approach
--- describe approach here --
-
 ### Schema
 Variable | Minimum Requirement | Chosen Limit
 :---: | --- | ---
