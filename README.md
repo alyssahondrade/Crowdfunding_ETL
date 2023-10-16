@@ -10,6 +10,8 @@ Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](h
     3. [Dataset](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#dataset)
 2. [Approach](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#approach)
     1. [Schema](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#schema)
+    2. [ERD]()
+    3. [SQL Query Results]()
 3. [References](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#references)
 
 
@@ -62,9 +64,15 @@ Variable | Minimum Requirement | Chosen Limit
 -- insert image of the ERD here, after describing ERD creation process --
 
 ### SQL Query Results
-|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/subcategories_table.png)|
-|:---:|:---:|
-| "categories" table: `SELECT * FROM categories` | "subcategories" table: `SELECT * FROM subcategories`
+The images below were retrieved using: `SELECT *` statement
+
+|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/subcategories_table.png)|![contacts_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/contacts_table.png)|
+|:---:|:---:|:---:|
+|Categories Table|Subcategories Table|Contacts Table|
+
+|![campaign_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/campaign_table.png)|
+|:---:|
+|Campaign Table|
 
 ## References
 - [1] SQL Data Types [http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html](http://www.cs.toronto.edu/\~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html)
