@@ -68,11 +68,11 @@ Variable | Minimum Requirement | Chosen Limit
 ### SQL Query Results
 The images below were retrieved using: `SELECT *` statement
 
-|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/subcategories_table.png)|![contacts_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/contacts_table.png)|
+|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Images/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Images/subcategories_table.png)|![contacts_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Images/contacts_table.png)|
 |:---:|:---:|:---:|
 |Categories Table|Subcategories Table|Contacts Table|
 
-|![campaign_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/campaign_table.png)|
+|![campaign_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Images/campaign_table.png)|
 |:---:|
 |Campaign Table|
 
