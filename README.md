@@ -4,12 +4,13 @@ Project 2 - UWA/edX Data Analytics Bootcamp
 Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](https://github.com/alyssahondrade/Crowdfunding_ETL.git)
 
 ## Table of Contents
-1. [Introduction]
-    1. [Goal]
-    2. [Repository Structure]
-    3. [Dataset]
-2. [Approach]
-3. [References]
+1. [Introduction](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#introduction)
+    1. [Goal](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#goal)
+    2. [Repository Structure](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#repository-structure)
+    3. [Dataset](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#dataset)
+2. [Approach](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#approach)
+    1. [Schema](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#schema)
+3. [References](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#references)
 
 
 ## Introduction
@@ -38,6 +39,7 @@ The root directory contains:
 
 
 ## Approach
+-- describe approach here --
 
 ### Schema
 Variable | Minimum Requirement | Chosen Limit
@@ -54,8 +56,7 @@ Variable | Minimum Requirement | Chosen Limit
 `country` | All country abbreviations required `VARCHAR(2)` | Retained, to ensure consistency and integrity of data
 `currency` | All currency abbreviations required `VARCHAR(3)` | Retained, for the same reasons as `country`
 
--- describe approach here --
-
+### ERD
 -- insert image of the ERD here, after describing ERD creation process --
 
 
