@@ -61,7 +61,9 @@ Variable | Minimum Requirement | Chosen Limit
 `currency` | All abbreviations required `VARCHAR(3)` | Retained, for the same reasons as `country`
 
 ### ERD
--- insert image of the ERD here, after describing ERD creation process --
+|![ERD diagram](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Images/CrowdFunding_ERD.png)|
+|:---:|
+|ERD Diagram|
 
 ### SQL Query Results
 The images below were retrieved using: `SELECT *` statement
