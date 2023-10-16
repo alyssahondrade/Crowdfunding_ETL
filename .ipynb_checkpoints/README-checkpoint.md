@@ -21,23 +21,22 @@ Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](h
 -- project goal here --
 
 ### Repository Structure
-`Resources` directory contains the raw datasets - Extract Phase:
-- [`contacts.xlsx`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)
-- [`crowdfunding.xlsx`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
-
-`Output` directory contains the transformed datasets - Transform Phase:
-- [`campaign.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/campaign.csv)
-- [`category.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/category.csv)
-- [`contacts.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/contacts.csv)
-- [`subcategory.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)
-
-`ERD` directory contains all files relevant to the ERD:
-- [`ERD_CrowdFunding.drawio`]()
-- [ERD_image]
-
 The root directory contains the source code and schema file:
 - [`ETL_Mini_Project_Group_6.ipynb`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/ETL_Mini_Project_Group_6.ipynb)
+- [`ERD_CrowdFunding.drawio`]()
 - [`crowdfunding_db_schema.sql`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)
+
+`Resources` directory contains the following:
+- The raw datasets - Extract Phase
+    - [`contacts.xlsx`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)
+    - [`crowdfunding.xlsx`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
+- The transformed datasets - Transform Phase
+    - [`campaign.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/campaign.csv)
+    - [`category.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/category.csv)
+    - [`contacts.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/contacts.csv)
+    - [`subcategory.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)
+
+`Images` directory contains all images created as part of the project.
 
 ### Dataset
 -- insert source here, refer to Project 2 BCS page --
