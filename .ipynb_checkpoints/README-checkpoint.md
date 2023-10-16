@@ -10,6 +10,8 @@ Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](h
     3. [Dataset](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#dataset)
 2. [Approach](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#approach)
     1. [Schema](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#schema)
+    2. [ERD](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#erd)
+    3. [SQL Query Results](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#sql-query-results)
 3. [References](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/README.md#references)
 
 
@@ -19,20 +21,23 @@ Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](h
 -- project goal here --
 
 ### Repository Structure
-`Resources` directory contains:
+`Resources` directory contains the raw datasets - Extract Phase:
+- [`contacts.xlsx`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)
 - [`crowdfunding.xlsx`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)
+
+`Output` directory contains the transformed datasets - Transform Phase:
 - [`campaign.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/campaign.csv)
 - [`category.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/category.csv)
 - [`contacts.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/contacts.csv)
 - [`subcategory.csv`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)
 
-`ERD` directory contains:
+`ERD` directory contains all files relevant to the ERD:
 - [`ERD_CrowdFunding.drawio`]()
 - [ERD_image]
 
-The root directory contains:
-- [`ETL_Mini_Project_Group_6.ipynb`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/ETL_Mini_Project_Group_6.ipynb) - the source code
-- [`schema.sql`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/schema.sql)
+The root directory contains the source code and schema file:
+- [`ETL_Mini_Project_Group_6.ipynb`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/ETL_Mini_Project_Group_6.ipynb)
+- [`crowdfunding_db_schema.sql`](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)
 
 ### Dataset
 -- insert source here, refer to Project 2 BCS page --
@@ -62,9 +67,15 @@ Variable | Minimum Requirement | Chosen Limit
 -- insert image of the ERD here, after describing ERD creation process --
 
 ### SQL Query Results
-|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/subcategories_table.png)|
-|:---:|:---:|
-| "categories" table: `SELECT * FROM categories` | "subcategories" table: `SELECT * FROM subcategories`
+The images below were retrieved using: `SELECT *` statement
+
+|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/subcategories_table.png)|![contacts_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/contacts_table.png)|
+|:---:|:---:|:---:|
+|Categories Table|Subcategories Table|Contacts Table|
+
+|![campaign_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/campaign_table.png)|
+|:---:|
+|Campaign Table|
 
 ## References
 - [1] SQL Data Types [http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html](http://www.cs.toronto.edu/\~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html)
