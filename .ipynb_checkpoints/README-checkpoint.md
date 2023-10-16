@@ -61,6 +61,10 @@ Variable | Minimum Requirement | Chosen Limit
 ### ERD
 -- insert image of the ERD here, after describing ERD creation process --
 
+### SQL Query Results
+|![categories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/categories_table.png)|![subcategories_table](https://github.com/alyssahondrade/Crowdfunding_ETL/blob/main/Query%20Results/subcategories_table.png)|
+|:---:|:---:|
+| "categories" table: `SELECT * FROM categories` | "subcategories" table: `SELECT * FROM subcategories`
 
 ## References
 - [1] SQL Data Types [http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html](http://www.cs.toronto.edu/\~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html)
