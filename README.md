@@ -18,7 +18,7 @@ Github repository at: [https://github.com/alyssahondrade/Crowdfunding_ETL.git](h
 ## Introduction
 
 ### Goal
--- project goal here --
+The goal of this porject is to collaboratively build an ETL pipeline using Python and Pandas, while utilizing either Python dictionary methods or regular expressions for data extraction and transformation. The project involves the creation of four CSV files from the transformed data, which will be used to generate an Entity-Relationship Diagram (ERD) and a table schema. The final step involves uploading the CSV file data into a Postgres database.
 
 ### Repository Structure
 - The root directory contains the source code and schema file:
