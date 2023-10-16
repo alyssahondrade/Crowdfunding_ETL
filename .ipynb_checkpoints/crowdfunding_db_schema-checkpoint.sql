@@ -1,4 +1,4 @@
--- CREATE DATABASE crowdfunding_db;
+
 
 CREATE TABLE categories (
 	PRIMARY KEY (category_id),
@@ -41,3 +41,12 @@ CREATE TABLE campaign (
     category_id VARCHAR(5),
     subcategory_id VARCHAR(10)
 );
+
+--select tables to check csv were imported 
+SELECT * FROM categories;
+
+SELECT * FROM subcategories;
+
+SELECT * FROM contacts;
+
+SELECT * FROM campaign;
